@@ -118,7 +118,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Joe Brothers Tech Blog`,
           },
         ],
       },
