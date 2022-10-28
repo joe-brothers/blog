@@ -4,7 +4,7 @@
 ## References
 - Template: https://github.com/LekoArts/gatsby-starter-minimal-blog
 - Gatsby Theme: https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/
-- Nelify CMS + OAuth with Firebase Cloud Functions: https://github.com/abhinavkrin/netlify-cms-oauth-firebase
+- Netlify CMS + OAuth with Firebase Cloud Functions: https://github.com/abhinavkrin/netlify-cms-oauth-firebase
   - ([This](https://github.com/Herohtar/netlify-cms-oauth-firebase/pull/18) should be merged)
 
 ## etc
