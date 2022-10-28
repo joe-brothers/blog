@@ -25,6 +25,7 @@ module.exports = {
       options: {
         // basePath: "/blog",
         blogPath: "/posts",
+        formatString: "YYYY-MM-DD",
         navigation: [
           {
             title: `Posts`,
