@@ -52,9 +52,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Joe Brothers Tech Blog`,
+        short_name: `Joe Brothers`,
+        description: `We will tell you about the technology, service, vision, and values of Joe Brothers.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
