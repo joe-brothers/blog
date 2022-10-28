@@ -2,6 +2,8 @@ backend:
   name: github
   repo: joe-brothers/blog
   branch: master
+  base_url: https://us-central1-netlify-cms-oauth-a31f5.cloudfunctions.net
+  auth_endpoint: /oauth/auth
 
 media_folder: "static/img"
 public_folder: "static"
