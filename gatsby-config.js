@@ -128,6 +128,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-X25XSWZ3T7",  // g-tag
+        ]
+      }
+    },
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
