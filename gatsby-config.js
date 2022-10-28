@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Joe Brothers Tech Blog`,
     siteUrl: `https://joe-brothers.com/blog`,
     siteDescription: `We will tell you about the technology, service, vision, and values of Joe Brothers.`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/blog/banner.jpg`,
     author: `@sh-cho`,
   },
   plugins: [
