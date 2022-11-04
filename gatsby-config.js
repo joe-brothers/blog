@@ -6,6 +6,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -15,7 +16,7 @@ module.exports = {
     siteHeadline: `Joe Brothers Tech Blog`,
     siteUrl: `https://joe-brothers.com/blog`,
     siteDescription: `We will tell you about the technology, service, vision, and values of Joe Brothers.`,
-    siteImage: `/blog/banner.jpg`,
+    siteImage: `/banner.jpg`,
     // author: `@sh-cho`,
   },
   plugins: [
