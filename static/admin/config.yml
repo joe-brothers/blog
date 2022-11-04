@@ -6,7 +6,6 @@ backend:
   auth_endpoint: /oauth/auth
   squash_merges: true
 
-public_folder: "/blog/static"
 publish_mode: editorial_workflow
 
 collections:
