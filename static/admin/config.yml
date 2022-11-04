@@ -6,8 +6,7 @@ backend:
   auth_endpoint: /oauth/auth
   squash_merge: true
 
-media_folder: "static/img"
-public_folder: "static"
+public_folder: "/blog/static"
 publish_mode: editorial_workflow
 
 collections:
