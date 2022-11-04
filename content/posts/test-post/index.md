@@ -5,6 +5,7 @@ description: description
 tags:
   - tag1
   - tag2
+banner: building.png
 ---
 t﻿est
 
@@ -23,11 +24,3 @@ print("hi")
 d﻿d
 
 d
-
-![thanks](./gamsa.gif "title test")
-
-g﻿if test
-
-![altalt](building.png "titletitle")
-
-p﻿ng
