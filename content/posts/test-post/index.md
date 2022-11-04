@@ -23,3 +23,7 @@ print("hi")
 d﻿d
 
 d
+
+![thanks](gamsa.gif "title test")
+
+i﻿mage test
