@@ -15,7 +15,7 @@ module.exports = {
     siteHeadline: `Joe Brothers Tech Blog`,
     siteUrl: `https://joe-brothers.com/blog`,
     siteDescription: `We will tell you about the technology, service, vision, and values of Joe Brothers.`,
-    siteImage: `/blog/banner.jpg`,
+    siteImage: `/banner.jpg`,
     // author: `@sh-cho`,
   },
   plugins: [
@@ -23,7 +23,7 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
-        // basePath: "/blog",
+        basePath: "/blog",
         blogPath: "/posts",
         formatString: "YYYY-MM-DD",
         navigation: [
