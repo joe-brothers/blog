@@ -6,6 +6,8 @@ backend:
   auth_endpoint: /oauth/auth
   squash_merges: true
 
+locale: "ko"
+site_url: https://joe-brothers.com/blog
 media_folder: "static/img"
 public_folder: "static"
 publish_mode: editorial_workflow
