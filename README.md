@@ -1,6 +1,8 @@
 # Blog
 [![Deploy Gatsby site to Pages](https://github.com/joe-brothers/blog/actions/workflows/gatsby.yml/badge.svg)](https://github.com/joe-brothers/blog/actions/workflows/gatsby.yml)
 
+- [CMS Admin page](https://joe-brothers.com/blog/admin) (joe brothers members only)
+
 ## References
 - Template: https://github.com/LekoArts/gatsby-starter-minimal-blog
 - Gatsby Theme: https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/
