@@ -1,0 +1,50 @@
+---
+title: Avoid duplicate celery tasks with Redis lock
+date: 2022-11-05T15:17:17.535Z
+description: ""
+tags:
+  - redis
+  - python
+  - celery
+---
+```python
+import redis
+import redis.lock
+from celery import shared_task, Task
+
+
+redis_conn: Union[redis.Redis, None] = None
+redis_lock: Union[redis.lock.Lock, None] = None
+
+
+class RedisTask(Task):
+    abstract = True
+
+    def after_return(self, status, retval, task_id, args, kwargs, einfo):
+        # cleanup
+        global redis_conn, redis_lock
+        if redis_lock and redis_lock.owned():
+            redis_lock.release()
+        if redis_conn:
+            redis_conn.close()
+
+        super().after_return(status, retval, task_id, args, kwargs, einfo)
+
+
+@shared_task(base=RedisTask)
+def my_task(some_param: SomeParam):
+    global redis_conn, redis_lock
+    redis_conn = redis.from_url(url="...")
+    redis_lock = redis_conn.lock(str(some_param.id), timeout=600)
+
+    if not redis_lock.acquire(blocking=True):
+        raise Exception("LOCK IN USE")
+    
+    # task
+```
+
+I﻿ used `redis-py`, `celery` packages and with Redis lock, which is implemented with `SETNX`, `DEL`
+
+I﻿n this way, you can avoid pushing tasks with same id.
+
+B﻿eware that Redis is not designed to persist important data, so if you really need to avoid re-perform same task, use other method.
