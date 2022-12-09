@@ -155,9 +155,13 @@ const code: ThemeUICSSObject = {
     },
     "pre[class~='language-java']:before": {
       content: `'java'`,
+      background: `#007396`,
+      color: `white`,
     },
     "pre[class~='language-kotlin']:before": {
       content: `'kotlin'`,
+      background: `#7F52FF`,
+      color: `white`,
     },
   },
   '.gatsby-highlight > code[class*="language-"], .gatsby-highlight > pre[class=*="language-"]': {
