@@ -126,7 +126,7 @@ const code: ThemeUICSSObject = {
       content: `"text"`,
     },
     "pre[class~='language-shell']:before": {
-      content: `'shellsssss'`,
+      content: `'shell'`,
     },
     "pre[class~='language-sh']:before": {
       content: `'sh'`,
