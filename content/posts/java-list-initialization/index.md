@@ -5,7 +5,6 @@ description: ""
 tags:
   - java
   - list
-  - ""
 ---
 T﻿here are several ways to initialize a List with values.
 
