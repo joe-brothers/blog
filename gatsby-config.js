@@ -141,9 +141,10 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-adsense`,
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-4125713536443110`,
+        googleAdClientId: `ca-pub-4125713536443110`,
+        head: true,
       },
     },
     shouldAnalyseBundle && {
