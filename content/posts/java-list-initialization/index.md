@@ -22,7 +22,7 @@ list.add("second");
 list.addAll(Arrays.asList("a", "b"));
 ```
 
-Y﻿ou can add items to list one by one with `add` method, or you can add list with `addAll` method.
+You can add items to list one by one with `add` method, or you can add list with `addAll` method.
 
 
 
@@ -32,7 +32,7 @@ Y﻿ou can add items to list one by one with `add` method, or you can add list w
 List<String> list = Arrays.asList("first", "second");
 ```
 
-A﻿rrays.asList method accepts `varargs` parameter.
+Arrays.asList method accepts `varargs` parameter.
 
 
 
@@ -43,9 +43,9 @@ List<String> list = Stream.of("first", "second", "third")
   .collect(Collectors.toList());
 ```
 
-S﻿tream collect methods converts Stream to Collection.
+Stream collect methods converts Stream to Collection.
 
-G﻿enerally, it creates mutable collections. If you want to make immutable list, consider using `toUnmodifiableList()` method.
+Generally, it creates mutable collections. If you want to make immutable list, consider using `toUnmodifiableList()` method.
 
 
 
@@ -55,4 +55,4 @@ G﻿enerally, it creates mutable collections. If you want to make immutable list
 List<String> list = List.of(1, 2, 3, 4);
 ```
 
-S﻿ince Java 9, you can use several handy factory methods.
+Since Java 9, you can use several handy factory methods.

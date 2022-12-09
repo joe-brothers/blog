@@ -18,4 +18,4 @@ I﻿f you want to remove  local file (e.g. `.java-version` for jenv), use `git r
 >
 > Use this option to unstage and remove paths only from the index. Working tree files, whether modified or not, will be left alone.
 >
-> (﻿[git rm documentation](https://git-scm.com/docs/git-rm))
+> ([git rm documentation](https://git-scm.com/docs/git-rm))

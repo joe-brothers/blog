@@ -43,8 +43,8 @@ def my_task(some_param: SomeParam):
     # task
 ```
 
-I﻿ used `redis-py`, `celery` packages and with Redis lock, which is implemented with `SETNX`, `DEL`
+I used `redis-py`, `celery` packages and with Redis lock, which is implemented with `SETNX`, `DEL`
 
-I﻿n this way, you can avoid pushing tasks with same id.
+In this way, you can avoid pushing tasks with same id.
 
-B﻿eware that Redis is not designed to persist important data, so if you really need to avoid re-perform same task, use other method.
+Beware that Redis is not designed to persist important data, so if you really need to avoid re-perform same task, use other method.
