@@ -34,6 +34,8 @@ List<String> list = Arrays.asList("first", "second");
 
 Arrays.asList method accepts `varargs` parameter.
 
+Note that this generates fixed size list. You can update existing element, but can not add or delete elements. It will throw `UnsupportedOperationException`
+
 
 
 ## S﻿tream to List (Java 8)
