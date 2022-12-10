@@ -34,7 +34,7 @@ List<String> list = Arrays.asList("first", "second");
 
 Arrays.asList method accepts `varargs` parameter.
 
-Note that this generates fixed size list. You can update existing element, but can not add or delete elements. It will throw `UnsupportedOperationException`
+Note that this generates fixed size list, which is **immutable**. You can update existing element, but can not add or delete elements. It will throw `UnsupportedOperationException`
 
 
 
@@ -47,7 +47,7 @@ List<String> list = Stream.of("first", "second", "third")
 
 Stream collect methods converts Stream to Collection.
 
-Generally, it creates mutable collections. If you want to make immutable list, consider using `toUnmodifiableList()` method.
+Generally, it creates **mutable** collections. If you want to make immutable list, consider using `toUnmodifiableList()` method.
 
 
 
@@ -58,3 +58,5 @@ List<String> list = List.of(1, 2, 3, 4);
 ```
 
 Since Java 9, you can use several handy factory methods.
+
+This factory method generates **immutable** list.
