@@ -10,7 +10,7 @@ There are several ways to initialize a List with values.
 
 
 
-## L﻿ist::add, addAll
+## List::add, addAll
 
 ```java
 // (1)
