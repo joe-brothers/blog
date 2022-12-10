@@ -6,7 +6,7 @@ tags:
   - java
   - list
 ---
-T﻿here are several ways to initialize a List with values.
+There are several ways to initialize a List with values.
 
 
 
@@ -26,7 +26,7 @@ You can add items to list one by one with `add` method, or you can add list with
 
 
 
-## A﻿rrays.asList (Before Java 8)
+## Arrays.asList (Before Java 8)
 
 ```java
 List<String> list = Arrays.asList("first", "second");
@@ -38,7 +38,7 @@ Note that this generates fixed size list. You can update existing element, but c
 
 
 
-## S﻿tream to List (Java 8)
+## Stream to List (Java 8)
 
 ```java
 List<String> list = Stream.of("first", "second", "third")
@@ -51,7 +51,7 @@ Generally, it creates mutable collections. If you want to make immutable list, c
 
 
 
-## F﻿actory Methods (Java 9)
+## Factory Methods (Java 9)
 
 ```java
 List<String> list = List.of(1, 2, 3, 4);

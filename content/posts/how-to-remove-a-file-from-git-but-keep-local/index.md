@@ -12,7 +12,7 @@ git rm --cached file_to_remove.txt
 git rm --cached -r directory_to_remove
 ```
 
-I﻿f you want to remove  local file (e.g. `.java-version` for jenv), use `git rm` with `--cached` option.
+If you want to remove  local file (e.g. `.java-version` for jenv), use `git rm` with `--cached` option.
 
 > \--cached
 >
