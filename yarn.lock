@@ -6191,6 +6191,13 @@ gatsby-parcel-config@^1.2.0:
     "@parcel/transformer-js" "2.6.2"
     "@parcel/transformer-json" "2.6.2"
 
+gatsby-plugin-canonical-urls@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-5.2.0.tgz#dea5082b50b5dd0647cf54a79b78d5f56d72f160"
+  integrity sha512-r87kR5u5DmaxHAC+NLekNFhB6dsmP3QQ/ConZtyl93Itb2sEeCSJhRyGrQzdWNF7TOGM6+tsa7zEa3xeGTZviw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
 gatsby-plugin-catch-links@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-5.2.0.tgz#566f068f493145b1e72f7e00ded5321ebbfdde56"
@@ -6256,10 +6263,10 @@ gatsby-plugin-mdx@^5.0.0:
     unist-util-visit "^4.1.0"
     vfile "^5.3.2"
 
-gatsby-plugin-netlify-cms@^6.24.0:
-  version "6.24.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-6.24.0.tgz#4152e26fd416aabf4203ec3fd404ce7c730f53e8"
-  integrity sha512-h2zS6Bs9vqjCemKiY8sCoz6jh0v8aUYqpJcoFbG4ON7Apbs3tZ9ci/4IaAF5m082Xv5O+mGT81LLzwWpRhvDQQ==
+gatsby-plugin-netlify-cms@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-7.2.0.tgz#4dbbb479fed8c60ca853def14019b8e17bfd7aa9"
+  integrity sha512-b6AADDhp0cJ8i1aY2/8n68d8zhzGpiuBU3znBVd+Hs3fX+EyC4jFG3IsiGaoDnHEhNGBpgM4V8TwzNJeBMXT4w==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@soda/friendly-errors-webpack-plugin" "1.8.1"

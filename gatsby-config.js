@@ -128,6 +128,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://joe-brothers.com/blog`,
+        stripQueryString: true,
+      }
+    },
+    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,  // custom module
