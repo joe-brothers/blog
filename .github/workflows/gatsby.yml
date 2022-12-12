@@ -65,6 +65,8 @@ jobs:
         run: yarn install
       - name: Build with Gatsby
         run: yarn run build
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
