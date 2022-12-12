@@ -1,7 +1,7 @@
 # Blog
 [![Deploy Gatsby site to Pages](https://github.com/joe-brothers/blog/actions/workflows/gatsby.yml/badge.svg)](https://github.com/joe-brothers/blog/actions/workflows/gatsby.yml)
 
-- [CMS Admin page](https://joe-brothers.com/blog/admin) (joe brothers members only)
+- [CMS Admin page](https://joe-brothers.com/blog/admin/index.html) (joe brothers members only)
 
 ## How to use
 ```bash
