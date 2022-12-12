@@ -56,9 +56,8 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            public
             .cache
-          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public') }}
+          key: ${{ runner.os }}-gatsby-build-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
