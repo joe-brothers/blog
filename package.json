@@ -6,32 +6,32 @@
   "author": "Seonghyeon Cho",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
-    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
-    "start": "gatsby develop",
+    "build": "tinacms build && gatsby build --prefix-paths",
+    "develop": "tinacms dev -c \"gatsby develop\"",
     "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "@lekoarts/gatsby-theme-minimal-blog": "^6.0.2",
+    "@tinacms/cli": "^1.0.3",
     "gatsby": "^5.0.0",
     "gatsby-plugin-canonical-urls": "^5.2.0",
     "gatsby-plugin-feed": "^5.0.0",
     "gatsby-plugin-google-gtag": "^5.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-netlify-cms": "^7.2.0",
     "gatsby-plugin-sitemap": "^6.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
-    "netlify-cms-app": "^2.15.72",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "tinacms": "^1.1.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
+  },
+  "resolutions": {
+    "graphql": "^15.7.2"
   }
 }

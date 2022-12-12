@@ -28,6 +28,10 @@ defaults:
   run:
     shell: bash
 
+env:
+  NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+  TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+
 jobs:
   # Build job
   build:
