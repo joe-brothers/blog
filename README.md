@@ -9,6 +9,11 @@ yarn develop
 ```
 run tinacms + gatsby dev locally
 
+```bash
+yarn build
+```
+run production build
+
 ## References
 - Template: https://github.com/LekoArts/gatsby-starter-minimal-blog
 - Gatsby Theme: https://www.gatsbyjs.com/plugins/@lekoarts/gatsby-theme-minimal-blog/
