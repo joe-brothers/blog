@@ -66,6 +66,7 @@ jobs:
         run: yarn run build
         env:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+      # XXX: source map is not working
       - name: Temp fix for path preifx
         run: |
           mv ./public/blog/admin/ public/admin/

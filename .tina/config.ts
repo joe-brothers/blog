@@ -9,7 +9,7 @@ export default defineConfig({
   token: process.env.TINA_TOKEN!,  // Get this from tina.io
   build: {
     publicFolder: "static",
-    outputFolder: "blog/admin",
+    outputFolder: "blog/admin",   // XXX: source map is not working with this
   },
   media: {
     tina: {
