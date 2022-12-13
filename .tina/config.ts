@@ -9,7 +9,7 @@ export default defineConfig({
   token: process.env.TINA_TOKEN!,  // Get this from tina.io
   build: {
     publicFolder: "static",
-    outputFolder: "admin",
+    outputFolder: "blog/admin",
   },
   media: {
     tina: {
